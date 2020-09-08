@@ -8,7 +8,7 @@ import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 function Header() {
     return (
         <div className="header">
-            <img className="header__logo" src="https://jordantravers.com/wp-content/uploads/2018/10/Amazon-Logo-1024x373.png" />
+            <img className="header__logo" alt="" src="https://jordantravers.com/wp-content/uploads/2018/10/Amazon-Logo-1024x373.png" />
 
             <div className="header__search">
                 <input
