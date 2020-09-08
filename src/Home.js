@@ -10,7 +10,7 @@ function Home() {
             </div>
 
             <div className="home__row">
-                {/* Proc */}
+                
                  {/* Proc */}
             </div>
 
