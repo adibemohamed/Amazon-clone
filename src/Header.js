@@ -8,10 +8,8 @@ import { useStateValue } from './StateProvider';
 
 
 function Header() {
-    const [{basket}, dispatch] = useStateValue();
-
-console.log(basket.length);
-
+    const [{ basket }, dispatch] = useStateValue();
+    
     return (
         <div className="header">
             <Link to="/">
