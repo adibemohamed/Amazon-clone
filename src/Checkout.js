@@ -14,13 +14,13 @@ function Checkout() {
                 <div className="">
                     <h1 className="checkout__title">
                         Your shopping Basket
-                        {/* BasketItem */}
-                        {/* BasketItem */}
-                        {/* BasketItem */}
-                        {/* BasketItem */}
-                        {/* BasketItem */}
-                        {/* BasketItem */}
-                        {/* BasketItem */}
+                        {/* CheckoutProduct */}
+                        {/* CheckoutProduct */}
+                        {/* CheckoutProduct */}
+                        {/* CheckoutProduct */}
+                        {/* CheckoutProduct */}
+                        {/* CheckoutProduct */}
+                        {/* CheckoutProduct */}
                     </h1>
                 </div>
             </div>
