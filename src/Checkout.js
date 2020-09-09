@@ -12,15 +12,8 @@ function Checkout() {
                 <img className="checkout__ad" src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423592668_.jpg" alt="" />
 
                 <div className="">
-                    <h1 className="checkout__title">
-                        Your shopping Basket
-                        {/* CheckoutProduct */}
-                        {/* CheckoutProduct */}
-                        {/* CheckoutProduct */}
-                        {/* CheckoutProduct */}
-                        {/* CheckoutProduct */}
-                        {/* CheckoutProduct */}
-                        {/* CheckoutProduct */}
+                    <h1 className="checkout__title"> 
+                    
                     </h1>
                 </div>
             </div>
