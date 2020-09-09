@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
-      console.log(`USER IS >>>> ${authUser}`);
+      console.log('USER IS >>>>>', authUser);
       if (authUser) {
         // the user just logged in / the user was logged in
         dispatch({
