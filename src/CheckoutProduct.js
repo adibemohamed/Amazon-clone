@@ -6,11 +6,11 @@ function CheckoutProduct({ id, image, title, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const removeFromBasket = () => {
-      // remove item from the basket
-      dispatch({
-        type: 'REMOVE_FROM_BASKET',
-        id: id,
-      })
+    // remove item from the basket
+    dispatch({
+      type: 'REMOVE_FROM_BASKET',
+      id: id,
+    })
   }
 
   return (
