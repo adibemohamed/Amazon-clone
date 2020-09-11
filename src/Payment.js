@@ -12,21 +12,24 @@ function Payment() {
 
   const stirpe = useStripe();
   const elements = useElements();
-
   const [error, setError] = useState(null);
   const [disabled, setDisabled] = useState(true);
-
   const [processing, setProcessing] = useState("");
   const [succeeded, setSucceeded] = useState(false);
+  const [clientSecret, setClientSecret] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (event) => {
     // do all fancy stripe suff
+    elements.preventDefault();
+    setProcessing(true);
+
+    // const payload = await stirpe
   };
 
-  const handleChange = (e) => {
+  const handleChange = (event) => {
     //listen for changes
-    setDisabled(e.empty);
-    setError(e.error ? e.error.message : "");
+    setDisabled(event.empty);
+    setError(event.error ? event.error.message : "");
   };
 
   return (
