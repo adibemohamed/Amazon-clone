@@ -3,6 +3,7 @@ import "./Payment.css";
 import { useStateValue } from "./StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
 import { Link } from "react-router-dom";
+import { CardElement, useStripe, useElement } from "@stripe/react-stripe-js";
 
 function Payment() {
   const [{ basket, user }, dispatch] = useStateValue();
@@ -53,7 +54,11 @@ function Payment() {
           <div className="payment__title">
             <h3>Payment Method</h3>
           </div>
-          <div className="payment__details">{/*  magic*/}</div>
+          <div className="payment__details">
+            <form>
+              <CardElement />
+            </form>
+          </div>
         </div>
       </div>
     </div>
