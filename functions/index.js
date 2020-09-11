@@ -11,15 +11,29 @@ const stripe = require("stripe")(
 const app = express();
 
 // Middleware
-app.use(cors({ origin: true }))
-app.use(express.json())
-
+app.use(cors({ origin: true }));
+app.use(express.json());
 
 // API routes
-app.get('/', (request, response) => {
-    response.status(200).send('HELLO WOLRD');
-})
+app.get("/", (request, response) => {
+  response.status(200).send("HELLO WOLRD");
+});
 
+app.post("/payments/create", async (request, response) => {
+  const total = request.query.total;
+
+  console.log("Payment Request Received BOOM!!!!! total: ", total);
+
+  const paymentIntent = await stripe.paymentIntents.create({
+    amount: total,
+    currency: "use",
+  });
+
+  // OK - created
+  response.status(201);
+});
 
 // Listen command
 exports.api = functions.https.onRequest(app);
+
+// http://localhost:5001/clone-975bf/us-central1/api
