@@ -89,6 +89,7 @@ function Payment() {
             <p>NY, USA</p>
           </div>
         </div>
+        
 
         <div className="payment__section">
           <div className="payment__title">
