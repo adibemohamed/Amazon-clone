@@ -30,7 +30,9 @@ app.post("/payments/create", async (request, response) => {
   });
 
   // OK - created
-  response.status(201);
+  response.status(201).send({
+      clientSecret: paymentIntent.clientSecret
+  })
 });
 
 // Listen command

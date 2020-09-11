@@ -11,7 +11,7 @@ function Home() {
 
 
                 <div className="home__row">
-                    <Product
+                    <Product 
                         id={32409234}
                         title="The lean startup"
                         image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
