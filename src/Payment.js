@@ -57,7 +57,7 @@ function Payment() {
           .collection("orders")
           .doc(paymentIntent.id)
           .set({
-            baseket: basket,
+            basket: basket,
             amount: paymentIntent.amount,
             created: paymentIntent.created,
           });
