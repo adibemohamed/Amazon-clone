@@ -11,9 +11,12 @@ import Payment from "./Payment";
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 import Orders from './Orders';
+import Footer from './Footer'
+
 const promise = loadStripe(
   "pk_test_51HPvTrF1HgyCm2C08jk6hoPQI5wfRT2ic8z9N7RffjKEA6z9EyYYsdYG8euDtug9iPUjDwizyCvXWjY7Pmmf4TLk00KmDEYRo0"
 );
+
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -65,6 +68,7 @@ function App() {
           <Route path="/">
             <Header />
             <Home />
+            <Footer />
           </Route>
         </Switch>
       </div>
