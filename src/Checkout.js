@@ -21,7 +21,7 @@ function Checkout() {
         <div className="">
           <h3>Hello, {user?.email}</h3>
           <h2 className="checkout__title">Your shopping Bakset</h2>
-          <FlipMove>
+          <FlipMove duration={250} easing="ease-out">
             {basket.map((item) => ( 
               <div key={item.id}
               >
