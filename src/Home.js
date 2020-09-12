@@ -14,65 +14,89 @@ function Home() {
 
         <div className="home__row">
           <Product
-            id={32409234}
-            title="The lean startup"
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
-            price={29.99}
+            id={1234}
+            title="TApple AirPods Pro"
+            image="https://m.media-amazon.com/images/I/71bhWgQK-cL._AC_UL320_.jpg"
+            price={46.35}
             rating={5}
           />
           <Product
-            id={8798459}
-            title="Echo Dot (3rd Gen) - Smart speaker with Alexa - Charcoal"
-            image="https://m.media-amazon.com/images/I/6182S7MYC2L._AC_UY218_.jpg"
-            price={49.99}
+            id={1235}
+            title="Apple MacBook Air (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray (Latest Model)"
+            image="https://m.media-amazon.com/images/I/71k3fJh5EwL._AC_UL320_.jpg"
+            price={949.99}
             rating={5}
           />
           <Product
-            id={3433434}
-            title="Echo Dot (3rd Gen) - Smart speaker with Alexa - Charcoal"
-            image="https://m.media-amazon.com/images/I/6182S7MYC2L._AC_UY218_.jpg"
-            price={49.99}
+            id={1236}
+            title="Apple Watch Series 3 (GPS, 38mm) - Space Gray Aluminum Case with Black Sport Band"
+            image="https://m.media-amazon.com/images/I/71fwbMm1NBL._AC_UL320_.jpg"
+            price={41.34}
             rating={5}
           />
           <Product
-            id={34366677}
-            title="Echo Dot (3rd Gen) - Smart speaker with Alexa - Charcoal"
-            image="https://m.media-amazon.com/images/I/6182S7MYC2L._AC_UY218_.jpg"
-            price={49.99}
+            id={1237}
+            title="Magic Keyboard for 12.9-inch iPad Pro (4th Generation) - US English"
+            image="https://m.media-amazon.com/images/I/71vh06cKISL._AC_UL320_.jpg"
+            price={329.98}
             rating={5}
           />
         </div>
 
         <div className="home__row">
           <Product
-            id={8709845}
-            title="Samsung Electronics EVO Select 256GB microSDXC"
-            image="https://images-na.ssl-images-amazon.com/images/I/41OPgpci5iL._AC_US160_.jpg"
-            price={31.99}
+            id={1238}
+            title="Apple TV 4K (32GB, Latest Model)"
+            image="https://m.media-amazon.com/images/I/51Y-Dulc3bL._AC_UL320_.jpg"
+            price={9255.00}
             rating={5}
           />
           <Product
-            id={5934850923}
-            title="VicTsing MM057 2.4G Wireless MoHP VH240a 23.8-inch Full HD 1080p "
-            image="https://m.media-amazon.com/images/I/71MD3ultk-L._AC_UL320_.jpg"
-            price={11.99}
+            id={1239}
+            title="Seneo Wireless Charger, 3 in 1 Wireless Charging Station for Apple Watch, AirPods Pro/2, Detachable and Magnetic..."
+            image="https://m.media-amazon.com/images/I/716YRwe5nrL._AC_UL320_.jpg"
+            price={25.99}
             rating={4}
           />
           <Product
-            id={23452345}
-            title="Xbox Wireless Controller - Red"
-            image="https://images-na.ssl-images-amazon.com/images/I/31PTviHMeUL._AC_US160_.jpg"
-            price={61.99}
+            id={1230}
+            title="Apple iPad mini Wi-Fi 256GB - Space Gray 5th Gen (2019)"
+            image="https://m.media-amazon.com/images/I/71Ha06XS-VL._AC_UL320_.jpg"
+            price={499.99}
             rating={5}
           />
         </div>
 
         <div className="home__row">
           <Product
-            id={87305987}
-            title="Acer Nitro 5 Gaming Laptop, 9th Gen Intel Core i5-9300H, NVIDIA GeForce GTX 1650, 15.6 Full HD IPS Display, "
-            image="https://m.media-amazon.com/images/I/71s1LRpaprL._AC_UL320_.jpg"
-            price={999.99}
+            id={1638}
+            title="Microsoft Surface Studio, Windows 10 Pro (64), Intel:I7-6820HQ/CI7, 2.7 GHz, NVIDIA-GEFORCEGTX965M/2GB, 1 TB, "
+            image="https://m.media-amazon.com/images/I/51cv1881dzL._AC_UL320_.jpg"
+            price={2398.66}
+            rating={5}
+          />
+          <Product
+            id={1639}
+            title="Apple 16`` MacBook Pro with Touch Bar, 9th-Gen 8-Core Intel i9 2.3GHz, 32GB RAM, 1TB SSD, AMD Radeon Pro 5500M 4GB, "
+            image="https://m.media-amazon.com/images/I/61qNHbx9LDL._AC_UL320_.jpg"
+            price={2999.00}
+            rating={5}
+          />
+          <Product
+            id={1630}
+            title="Apple Watch Series 5 (GPS, 44mm) - Gold Aluminum Case with Pink Sport Band with AppleCare+ Bundle"
+            image="https://m.media-amazon.com/images/I/61tjld02v9L._AC_UL320_.jpg"
+            price={374.00}
+            rating={5}
+          />
+        </div>
+
+        <div className="home__row">
+          <Product
+            id={1645}
+            title="Apple Mac Pro Desktop Computer, 3.5GHz 8-Core Intel Xeon W, 32GB Memory, 256GB SSD, Radeon Pro 580X 8GB, "
+            image="https://m.media-amazon.com/images/I/71XeBfvi-CL._AC_UL320_.jpg"
+            price={5999.00}
             rating={5}
           />
         </div>
