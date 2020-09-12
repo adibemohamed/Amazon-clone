@@ -9,12 +9,6 @@ function Checkout() {
   // eslint-disable-next-line
   const [{ basket, user }, dispatch] = useStateValue();
 
-  const ticketNotVisibleState = {
-    transform: "translateX(-100%)",
-    opacity: 0.1
-  };
-
-
   return (
     <div className="checkout">
       <div className="checkout__left">
@@ -27,25 +21,21 @@ function Checkout() {
         <div className="">
           <h3>Hello, {user?.email}</h3>
           <h2 className="checkout__title">Your shopping Bakset</h2>
-          <FlipMove
-            enterAnimation={{
-              from: ticketNotVisibleState,
-              to: {},
-            }}
-            leaveAnimation={{
-              from: {},
-              to: ticketNotVisibleState,
-            }}
-          >
-            {basket.map((item) => (
-              <CheckoutProduct
-                key={item.id}
-                id={item.id}
-                title={item.title}
-                price={item.price}
-                image={item.image}
-                rating={item.rating}
-              />
+          <FlipMove>
+            {basket.map((item) => ( 
+              <div key={item.id}
+              >
+
+                <CheckoutProduct
+                  key={item.id}
+                  id={item.id}
+                  title={item.title}
+                  price={item.price}
+                  image={item.image}
+                  rating={item.rating}
+                />
+
+              </div>
             ))}
           </FlipMove>
         </div>
