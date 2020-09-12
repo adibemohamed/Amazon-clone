@@ -7,7 +7,7 @@ function Home() {
     return (
         <div className="home">
             <div className="home__container">
-                <img className="home__image" alt="" src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"></img>
+                <img className="home__image" alt="" src="https://www.amazon.fr/images/G/08/digital/video/magellan/country/france/EvergreenRefresh/FromDec-19/FR_Evergreen_Refresh_ENG_SADLP_Tablet_1453x363.jpg"></img>
 
 
                 <div className="home__row">
@@ -23,6 +23,92 @@ function Home() {
                         title="Echo Dot (3rd Gen) - Smart speaker with Alexa - Charcoal"
                         image="https://m.media-amazon.com/images/I/6182S7MYC2L._AC_UY218_.jpg"
                         price={49.99}
+                        rating={5}
+                    />
+                    <Product
+                        id={8798459}
+                        title="Echo Dot (3rd Gen) - Smart speaker with Alexa - Charcoal"
+                        image="https://m.media-amazon.com/images/I/6182S7MYC2L._AC_UY218_.jpg"
+                        price={49.99}
+                        rating={5}
+                    />
+                    <Product
+                        id={8798459}
+                        title="Echo Dot (3rd Gen) - Smart speaker with Alexa - Charcoal"
+                        image="https://m.media-amazon.com/images/I/6182S7MYC2L._AC_UY218_.jpg"
+                        price={49.99}
+                        rating={5}
+                    />
+                </div>
+
+                <div className="home__row">
+                    <Product
+                        id={8709845}
+                        title="Samsung Electronics EVO Select 256GB microSDXC"
+                        image="https://images-na.ssl-images-amazon.com/images/I/41OPgpci5iL._AC_US160_.jpg"
+                        price={31.99}
+                        rating={5}
+                    />
+                    <Product
+                        id={5934850923}
+                        title="VicTsing MM057 2.4G Wireless MoHP VH240a 23.8-inch Full HD 1080p "
+                        image="https://m.media-amazon.com/images/I/71MD3ultk-L._AC_UL320_.jpg"
+                        price={11.99}
+                        rating={4}
+                    />
+                    <Product
+                        id={23452345}
+                        title="Xbox Wireless Controller - Red"
+                        image="https://images-na.ssl-images-amazon.com/images/I/31PTviHMeUL._AC_US160_.jpg"
+                        price={61.99}
+                        rating={5}
+                    />
+                </div>
+
+                <div className="home__row">
+                    <Product
+                        id={8709845}
+                        title="Samsung Electronics EVO Select 256GB microSDXC"
+                        image="https://images-na.ssl-images-amazon.com/images/I/41OPgpci5iL._AC_US160_.jpg"
+                        price={31.99}
+                        rating={5}
+                    />
+                    <Product
+                        id={5934850923}
+                        title="VicTsing MM057 2.4G Wireless MoHP VH240a 23.8-inch Full HD 1080p "
+                        image="https://m.media-amazon.com/images/I/71MD3ultk-L._AC_UL320_.jpg"
+                        price={11.99}
+                        rating={4}
+                    />
+                    <Product
+                        id={23452345}
+                        title="Xbox Wireless Controller - Red"
+                        image="https://images-na.ssl-images-amazon.com/images/I/31PTviHMeUL._AC_US160_.jpg"
+                        price={61.99}
+                        rating={5}
+                    />
+                </div>
+
+                <div className="home__row">
+                    <Product
+                        id={8709845}
+                        title="Samsung Electronics EVO Select 256GB microSDXC"
+                        image="https://images-na.ssl-images-amazon.com/images/I/41OPgpci5iL._AC_US160_.jpg"
+                        price={31.99}
+                        rating={5}
+                    />
+                    <Product
+                        id={5934850923}
+                        title="VicTsing MM057 2.4G Wireless MoHP VH240a 23.8-inch Full HD 1080p "
+                        image="https://m.media-amazon.com/images/I/71MD3ultk-L._AC_UL320_.jpg"
+                        price={11.99}
+                        rating={4}
+                    />
+                    <Product
+                        id={23452345}
+                        title="Xbox Wireless Controller - Red"
+                        image="https://images-na.ssl-images-amazon.com/images/I/31PTviHMeUL._AC_US160_.jpg"
+                        price={61.99}
                         rating={5}
                     />
                 </div>
