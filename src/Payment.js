@@ -28,17 +28,17 @@ function Payment() {
         method: "post",
         url: `/payments/create?total=${getBasketTotal(basket) * 100}`,
       });
-      setClientSecret(response.date.clientSecret);
+      setClientSecret(response.data.clientSecret);
     };
 
     getClientSecret();
   }, [basket]);
 
-  console.log('THE SECREST IS ---->', clientSecret);
+  console.log("THE SECREST IS ---->", clientSecret);
 
   const handleSubmit = async (event) => {
     // do all fancy stripe suff
-    elements.preventDefault();
+    event.preventDefault();
     setProcessing(true);
 
     const payload = await stirpe
@@ -89,7 +89,6 @@ function Payment() {
             <p>NY, USA</p>
           </div>
         </div>
-        
 
         <div className="payment__section">
           <div className="payment__title">
@@ -130,6 +129,8 @@ function Payment() {
                 <button disabled={processing || disabled || succeeded}>
                   <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
                 </button>
+                {/* Errors */}
+                {error && <div>{error}</div>}
               </div>
             </form>
           </div>
