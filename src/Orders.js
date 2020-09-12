@@ -1,7 +1,7 @@
 import React from 'react'
 import './Orders.css';
 
-function Order() {
+function Orders() {
     return (
         <div className="orders">
             
@@ -9,4 +9,4 @@ function Order() {
     )
 }
 
-export default Order
+export default Orders
