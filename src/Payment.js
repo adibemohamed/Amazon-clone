@@ -89,7 +89,7 @@ function Payment() {
         
         <h1>Checkout {<Link to="./checkout">{basket?.length} </Link>} items</h1>
         </div>
-        {/* <div className="payment__section">
+        {/* <div fromclassName="payment__section">
                     <div className="payment__title">
                         <h3>Delivry Address</h3>
 

@@ -16,9 +16,9 @@ function Subtotal() {
       <CurrencyFormat
         renderText={(value) => (
           <>
-            <p>
+            <h1>
               Subtotal ({basket.length} items): <strong>{value}</strong>
-            </p>
+            </h1>
             <small className="subtotal__gift">
               <input type="checkbox" /> This order contains a gift
             </small>

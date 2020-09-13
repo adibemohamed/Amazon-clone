@@ -1,64 +1,71 @@
 .product {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: flex-end;
-    margin: 10px;
-    padding-bottom: 20px;
-    width: 100%;
-    max-height: 420px;
-    min-width: 100px;
-    background-color: white;
-    z-index: 1;
-    transition: all .1s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding-bottom: 20px;
+  width: 100%;
+  max-height: 420px;
+  min-width: 100px;
+  background-color: white;
+  z-index: 1;
+  transition: all 0.1s ease;
 }
 .product:hover {
-    box-shadow: 0px 6px 20px 0px #b7b7b7;
+  box-shadow: 0px 6px 20px 0px #b7b7b7;
 }
- 
+
 .product > img {
-    padding: 10px;
-    width: 100%;
+  padding: 10px;
+  width: 100%;
 }
 .product__info {
-    padding: 5px;
+  padding: 5px 25px;
 }
 
 .product__rating {
-    display: flex;
+  display: flex;
 }
 
-.product__ratingIcon  {
-    padding: 10px 0 5px 0;
+.product__ratingIcon {
+  padding: 10px 0 5px 0;
 }
 .product__ratingIcon svg {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 .product > img {
-    max-height: 200px;
-    width: 100%;
-    object-fit: contain;
-    margin-bottom: 25px;
-    height: 200px;
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 25px;
+  height: 200px;
 }
 
 .product > button {
-    background-color: #f0c14b;
-    border: 1px solid;
-    margin-top: 10px;
-    border-color: #a88734 #9c7e32 #846a29;
-    color: #111;
-    padding: 5px 10px; 
-    border-radius: 2px;
-    outline-width: 0;
+  background-color: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e32 #846a29;
+  color: #111;
+  padding: 5px 10px;
+  border-radius: 2px;
+  outline-width: 0;
+  cursor: pointer;
 }
- 
+
+.product > button:hover {
+  border-color: #a88734 #9c7e31 #846a29;
+}
+.product > button:focus {
+  border-color: #e77600;
+}
 .product__price {
-    margin-top: 5px; 
+  margin-top: 5px;
 }
 
 .product__info {
-    height: 100px;
-    margin-bottom: 15px;
+  height: 100px;
+  margin-bottom: 15px;
 }

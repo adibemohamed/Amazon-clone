@@ -25,7 +25,6 @@ function Checkout() {
             {basket.map((item) => ( 
               <div key={item.id}
               >
-
                 <CheckoutProduct
                   key={item.id}
                   id={item.id}
@@ -34,7 +33,6 @@ function Checkout() {
                   image={item.image}
                   rating={item.rating}
                 />
-
               </div>
             ))}
           </FlipMove>
