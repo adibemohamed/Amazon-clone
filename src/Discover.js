@@ -1,4 +1,5 @@
 import React from 'react'
+import './Discover.css';
 
 function Discover() {
     return (
