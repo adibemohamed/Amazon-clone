@@ -1,8 +1,6 @@
 .product {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
+  flex-direction: column; 
   margin: 10px;
   padding-bottom: 20px;
   width: 100%;
@@ -48,11 +46,14 @@
   border: 1px solid;
   margin-top: 10px; 
   color: #fff;
-  padding: 12px 20px;
-  border-radius: 30px;
+  padding: 10px 16px;
+  border-radius: 50px;
   outline-width: 0;
   cursor: pointer;
   font-size: 15px;
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .product > button:hover {
   background-color: #eb650c;
@@ -62,6 +63,7 @@
 }
 .product__price {
   margin-top: 5px;
+  font-size: 20px;
 }
 
 .product__info {

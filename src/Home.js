@@ -16,9 +16,9 @@ function Home() {
 
       <div className="home__row">
       <Category title="Electronics" image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg" />
-      <Category title="Electronics" image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg" />
-      <Category title="Electronics" image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg" />
-      <Category title="Electronics" image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg" />
+      <Category title="Computer Accessories" image="https://m.media-amazon.com/images/I/81jW2JlfgkL._AC_UL320_.jpg" />
+      <Category title="Smart Kitchen Tools" image="https://images-na.ssl-images-amazon.com/images/I/41egiew3LCL._AC_US218_.jpg" />
+      <Category title="Video Games" image="https://m.media-amazon.com/images/I/71F4LMJnouL._AC_UY218_.jpg" />
        
 
       </div>
