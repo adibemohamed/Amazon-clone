@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Product from "./Product";
 import Category from "./Category";
+import Discover from "./Discover";
 
 function Home() {
   return (
@@ -13,15 +14,25 @@ function Home() {
           src="https://www.amazon.fr/images/G/08/digital/video/magellan/country/france/EvergreenRefresh/FromDec-19/FR_Evergreen_Refresh_ENG_SADLP_Tablet_1453x363.jpg"
         ></img>
 
-
-      <div className="home__row">
-      <Category title="Electronics" image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg" />
-      <Category title="Computer Accessories" image="https://m.media-amazon.com/images/I/81jW2JlfgkL._AC_UL320_.jpg" />
-      <Category title="Smart Kitchen Tools" image="https://images-na.ssl-images-amazon.com/images/I/41egiew3LCL._AC_US218_.jpg" />
-      <Category title="Video Games" image="https://m.media-amazon.com/images/I/71F4LMJnouL._AC_UY218_.jpg" />
-       
-
-      </div>
+        <div className="home__row">
+          <Category
+            title="Electronics"
+            image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg"
+          />
+          <Category
+            title="Computer Accessories"
+            image="https://m.media-amazon.com/images/I/81jW2JlfgkL._AC_UL320_.jpg"
+          />
+          <Category
+            title="Smart Kitchen Tools"
+            image="https://images-na.ssl-images-amazon.com/images/I/41egiew3LCL._AC_US218_.jpg"
+          />
+          <Category
+            title="Video Games"
+            image="https://m.media-amazon.com/images/I/71F4LMJnouL._AC_UY218_.jpg"
+          />
+        </div>
+        <Discover />
         <div className="home__row">
           <Product
             id={1234}
@@ -58,7 +69,7 @@ function Home() {
             id={1238}
             title="Apple TV 4K (32GB, Latest Model)"
             image="https://m.media-amazon.com/images/I/51Y-Dulc3bL._AC_UL320_.jpg"
-            price={9255.00}
+            price={9255.0}
             rating={5}
           />
           <Product
@@ -89,14 +100,14 @@ function Home() {
             id={1639}
             title="Apple 16`` MacBook Pro with Touch Bar, 9th-Gen 8-Core Intel i9 2.3GHz, 32GB RAM, 1TB SSD, AMD Radeon Pro 5500M 4GB, "
             image="https://m.media-amazon.com/images/I/61qNHbx9LDL._AC_UL320_.jpg"
-            price={2999.00}
+            price={2999.0}
             rating={5}
           />
           <Product
             id={1630}
             title="Apple Watch Series 5 (GPS, 44mm) - Gold Aluminum Case with Pink Sport Band with AppleCare+ Bundle"
             image="https://m.media-amazon.com/images/I/61tjld02v9L._AC_UL320_.jpg"
-            price={374.00}
+            price={374.0}
             rating={5}
           />
         </div>
@@ -106,7 +117,7 @@ function Home() {
             id={1645}
             title="Apple Mac Pro Desktop Computer, 3.5GHz 8-Core Intel Xeon W, 32GB Memory, 256GB SSD, Radeon Pro 580X 8GB, "
             image="https://m.media-amazon.com/images/I/71XeBfvi-CL._AC_UL320_.jpg"
-            price={5999.00}
+            price={5999.0}
             rating={5}
           />
         </div>

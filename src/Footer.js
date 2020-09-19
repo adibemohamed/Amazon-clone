@@ -55,10 +55,9 @@ function Footer() {
       </div>
 
       <div className="footer__bottom">
-        <img
-          alt=""
-          src="https://jordantravers.com/wp-content/uploads/2018/10/Amazon-Logo-1024x373.png"
-        />
+      <div className="footer__bottomLogo">
+                <h2>Like<span>Amazon</span> </h2>
+                </div>
         <div className="footer__bottomItem">English</div>
         <div className="footer__bottomItem">USD-US. Dollar</div>
         <div className="footer__bottomItem">United States</div>

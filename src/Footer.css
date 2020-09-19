@@ -46,10 +46,19 @@
   padding-bottom: 20px;
 }
 
-.footer__bottom img {
-  height: 30px;
-  margin-right: 50px;
+ 
+.footer a{
+  text-decoration: none;
 }
+
+.footer__bottomLogo{
+  padding: 0 10px;
+  color: white; 
+}
+.footer__bottomLogo span{
+  color: #ff9854;
+}
+
 
 .footer__bottomItem { 
     display: inline-block!important;

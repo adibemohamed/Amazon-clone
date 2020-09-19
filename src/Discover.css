@@ -1,0 +1,17 @@
+.discover {
+    background-color: white;
+    padding: 30px 0 40px 0;
+    margin: 10px;
+}
+.discover h2 { 
+    padding-left: 30px;
+    padding-bottom: 10px;
+    color: #444;
+}
+.discover__icons {
+    display: flex;
+}
+.discover__icons img {
+    flex: 1;
+    object-fit: contain;
+}
