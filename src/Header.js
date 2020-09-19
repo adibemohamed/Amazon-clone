@@ -19,7 +19,9 @@ function Header() {
     return (
         <div className="header">
             <Link to="/">
-                <img className="header__logo" alt="" src="https://jordantravers.com/wp-content/uploads/2018/10/Amazon-Logo-1024x373.png" />
+                <div className="header__logo">
+                <h2>Like<span>Amazon</span> </h2>
+                </div>
             </Link>
 
             <div className="header__search">

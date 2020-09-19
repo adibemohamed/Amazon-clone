@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Product from "./Product";
+import Category from "./Category";
 
 function Home() {
   return (
@@ -12,6 +13,15 @@ function Home() {
           src="https://www.amazon.fr/images/G/08/digital/video/magellan/country/france/EvergreenRefresh/FromDec-19/FR_Evergreen_Refresh_ENG_SADLP_Tablet_1453x363.jpg"
         ></img>
 
+
+      <div className="home__row">
+      <Category title="Electronics" image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg" />
+      <Category title="Electronics" image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg" />
+      <Category title="Electronics" image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg" />
+      <Category title="Electronics" image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg" />
+       
+
+      </div>
         <div className="home__row">
           <Product
             id={1234}
