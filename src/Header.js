@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
@@ -17,14 +17,16 @@ function Header() {
       auth.signOut();
     }
   };
+  const [category, setCategory] = useState('All');
 
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [anchorEl, setAnchorEl] = useState(null);
 
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
+  const handleClick = (event) => { 
+    setAnchorEl(event.currentTarget); 
   };
 
-  const handleClose = () => {
+  const handleClose = (event) => { 
+    console.log(event)
     setAnchorEl(null);
   };
 
@@ -45,7 +47,7 @@ function Header() {
             aria-haspopup="true"
             onClick={handleClick}
           >
-            All
+            {category}
           </Button>
           <Menu
             id="simple-menu"

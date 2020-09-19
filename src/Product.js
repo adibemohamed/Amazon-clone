@@ -30,7 +30,7 @@ function Product({ id, title, image, price, rating }) {
             .fill()
             .map((_, i) => (
               <p className="product__ratingIcon">
-                <svg
+                <svg 
                   height="511pt"
                   viewBox="0 -10 511.98685 511"
                   width="511pt"
