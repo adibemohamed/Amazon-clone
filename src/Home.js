@@ -3,6 +3,7 @@ import "./Home.css";
 import Product from "./Product";
 import Category from "./Category";
 import Discover from "./Discover";
+import Grid from "@material-ui/core/Grid";
 
 function Home() {
   return (
@@ -34,34 +35,35 @@ function Home() {
         </div>
         <Discover />
         <div className="home__row">
-          <Product
-            id={1234}
-            title="TApple AirPods Pro"
-            image="https://m.media-amazon.com/images/I/71bhWgQK-cL._AC_UL320_.jpg"
-            price={46.35}
-            rating={5}
-          />
-          <Product
-            id={1235}
-            title="Apple MacBook Air (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray (Latest Model)"
-            image="https://m.media-amazon.com/images/I/71k3fJh5EwL._AC_UL320_.jpg"
-            price={949.99}
-            rating={5}
-          />
-          <Product
-            id={1236}
-            title="Apple Watch Series 3 (GPS, 38mm) - Space Gray Aluminum Case with Black Sport Band"
-            image="https://m.media-amazon.com/images/I/71fwbMm1NBL._AC_UL320_.jpg"
-            price={41.34}
-            rating={5}
-          />
-          <Product
-            id={1237}
-            title="Magic Keyboard for 12.9-inch iPad Pro (4th Generation) - US English"
-            image="https://m.media-amazon.com/images/I/71vh06cKISL._AC_UL320_.jpg"
-            price={329.98}
-            rating={5}
-          />
+          <Grid container>
+            <Grid item xs={1} sm={4} lg={4}>
+              <Product
+                id={1235}
+                title="Apple MacBook Air (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray (Latest Model)"
+                image="https://m.media-amazon.com/images/I/71k3fJh5EwL._AC_UL320_.jpg"
+                price={949.99}
+                rating={5}
+              />
+            </Grid>
+            <Grid item xs={1} sm={4} lg={4}>
+              <Product
+                id={1236}
+                title="Apple Watch Series 3 (GPS, 38mm) - Space Gray Aluminum Case with Black Sport Band"
+                image="https://m.media-amazon.com/images/I/71fwbMm1NBL._AC_UL320_.jpg"
+                price={41.34}
+                rating={5}
+              />
+            </Grid>
+            <Grid item xs={1} sm={4} lg={4}>
+              <Product
+                id={1237}
+                title="Magic Keyboard for 12.9-inch iPad Pro (4th Generation) - US English"
+                image="https://m.media-amazon.com/images/I/71vh06cKISL._AC_UL320_.jpg"
+                price={329.98}
+                rating={5}
+              />
+            </Grid>
+          </Grid>
         </div>
 
         <div className="home__row">
