@@ -46,7 +46,7 @@ function Home() {
 
         <Discover />
         <Grid container>
-          <Grid item xs={12} sm={4} lg={4}>
+          <Grid item xs={12} md={4} lg={4} xl={4}>
             <Product
               id={1235}
               title="Apple MacBook Air (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray (Latest Model)"
@@ -55,7 +55,7 @@ function Home() {
               rating={5}
             />
           </Grid>
-          <Grid item xs={12} sm={4} lg={4}>
+          <Grid item xs={12} md={4} lg={4} xl={4}>
             <Product
               id={1236}
               title="Apple Watch Series 3 (GPS, 38mm) - Space Gray Aluminum Case with Black Sport Band"
@@ -64,7 +64,7 @@ function Home() {
               rating={5}
             />
           </Grid>
-          <Grid item xs={12} sm={4} lg={4}>
+          <Grid item xs={12} md={4} lg={4} xl={4}>
             <Product
               id={1237}
               title="Magic Keyboard for 12.9-inch iPad Pro (4th Generation) - US English"
@@ -75,7 +75,7 @@ function Home() {
           </Grid>
         </Grid>
         <Grid container>
-          <Grid item xs={12} sm={4} lg={4}>
+          <Grid item xs={12} md={4} lg={4} xl={4}>
             <Product
               id={1238}
               title="Apple TV 4K (32GB, Latest Model)"
@@ -84,7 +84,7 @@ function Home() {
               rating={5}
             />
           </Grid>
-          <Grid item xs={12} sm={4} lg={4}>
+          <Grid item xs={12} md={4} lg={4} xl={4}>
             <Product
               id={1239}
               title="Seneo Wireless Charger, 3 in 1 Wireless Charging Station for Apple Watch, AirPods Pro/2, Detachable and Magnetic..."
@@ -93,7 +93,7 @@ function Home() {
               rating={4}
             />
           </Grid>
-          <Grid item xs={12} sm={4} lg={4}>
+          <Grid item xs={12} md={4} lg={4} xl={4}>
             <Product
               id={1230}
               title="Apple iPad mini Wi-Fi 256GB - Space Gray 5th Gen (2019)"
@@ -104,7 +104,7 @@ function Home() {
           </Grid>
         </Grid>
         <Grid container>
-          <Grid item xs={12} sm={4} lg={4}>
+          <Grid item xs={12} md={4} lg={4} xl={4}>
             {" "}
             <Product
               id={1638}
@@ -114,7 +114,7 @@ function Home() {
               rating={5}
             />
           </Grid>
-          <Grid item xs={12} sm={4} lg={4}>
+          <Grid item xs={12} md={4} lg={4} xl={4}>
             <Product
               id={1639}
               title="Apple 16`` MacBook Pro with Touch Bar, 9th-Gen 8-Core Intel i9 2.3GHz, 32GB RAM, 1TB SSD, AMD Radeon Pro 5500M 4GB, "
@@ -123,7 +123,7 @@ function Home() {
               rating={5}
             />
           </Grid>
-          <Grid item xs={12} sm={4} lg={4}>
+          <Grid item xs={12} md={4} lg={4} xl={4}>
             {" "}
             <Product
               id={1630}
@@ -134,13 +134,17 @@ function Home() {
             />
           </Grid>
         </Grid>
-        <Product
-          id={1645}
-          title="Apple Mac Pro Desktop Computer, 3.5GHz 8-Core Intel Xeon W, 32GB Memory, 256GB SSD, Radeon Pro 580X 8GB, "
-          image="https://m.media-amazon.com/images/I/71XeBfvi-CL._AC_UL320_.jpg"
-          price={5999.0}
-          rating={5}
-        />
+        <Grid container>
+          <Grid item xs={12}>
+            <Product
+              id={1645}
+              title="Apple Mac Pro Desktop Computer, 3.5GHz 8-Core Intel Xeon W, 32GB Memory, 256GB SSD, Radeon Pro 580X 8GB, "
+              image="https://m.media-amazon.com/images/I/71XeBfvi-CL._AC_UL320_.jpg"
+              price={5999.0}
+              rating={5}
+            />
+          </Grid>
+        </Grid>
       </div>
     </div>
   );

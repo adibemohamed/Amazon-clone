@@ -1,7 +1,7 @@
 .product {
   display: flex;
-  flex-direction: column; 
-  margin: 10px;
+  flex-direction: column;
+  margin: 10px 0;
   padding-bottom: 20px;
   width: 100%;
   max-height: 420px;
@@ -15,7 +15,7 @@
 }
 
 .product > img {
-  padding: 10px;
+  padding: 20px 0;
   width: 100%;
 }
 .product__info {
@@ -44,7 +44,7 @@
 .product > button {
   background-color: #ff6601;
   border: 1px solid;
-  margin-top: 10px; 
+  margin-top: 10px;
   color: #fff;
   padding: 10px 16px;
   border-radius: 50px;
@@ -57,7 +57,7 @@
 }
 .product > button:hover {
   background-color: #eb650c;
-} 
+}
 .product > button:focus {
   border-color: #ff6601;
 }
