@@ -22,11 +22,9 @@ function Checkout() {
           <h3>Hello, {user?.email}</h3>
           <h2 className="checkout__title">Your shopping Bakset</h2>
           <FlipMove duration={250} easing="ease-out">
-            {basket.map((item) => ( 
-              <div key={item.id}
-              >
+            {basket.map((item, i) => (
+              <div key={i}>
                 <CheckoutProduct
-                  key={item.id}
                   id={item.id}
                   title={item.title}
                   price={item.price}
