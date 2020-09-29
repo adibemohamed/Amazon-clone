@@ -3,8 +3,8 @@ import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import { Link } from "react-router-dom";
-import { useStateValue } from "./StateProvider";
-import { auth } from "./firebase";
+import { useStateValue } from "../StateProvider";
+import { auth } from "../firebase";
 import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
@@ -17,16 +17,16 @@ function Header() {
       auth.signOut();
     }
   };
-  const [category, setCategory] = useState('All');
+  const [category, setCategory] = useState("All");
 
   const [anchorEl, setAnchorEl] = useState(null);
 
-  const handleClick = (event) => { 
-    setAnchorEl(event.currentTarget); 
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
   };
 
-  const handleClose = (event) => { 
-    console.log(event)
+  const handleClose = (event) => {
+    console.log(event);
     setAnchorEl(null);
   };
 
@@ -55,13 +55,14 @@ function Header() {
             keepMounted
             open={Boolean(anchorEl)}
             onClose={handleClose}
-          > 
-
+          >
             <MenuItem onClick={handleClose}>All Departments</MenuItem>
             <MenuItem onClick={handleClose}>Arts &amp; Crafts</MenuItem>
             <MenuItem onClick={handleClose}>Automotive</MenuItem>
             <MenuItem onClick={handleClose}>Baby</MenuItem>
-            <MenuItem onClick={handleClose}>Beauty &amp; Personal Care</MenuItem>
+            <MenuItem onClick={handleClose}>
+              Beauty &amp; Personal Care
+            </MenuItem>
             <MenuItem onClick={handleClose}>Books</MenuItem>
             <MenuItem onClick={handleClose}>Computers</MenuItem>
             <MenuItem onClick={handleClose}>Digital Music</MenuItem>
@@ -75,14 +76,18 @@ function Header() {
             <MenuItem onClick={handleClose}>Deals</MenuItem>
             <MenuItem onClick={handleClose}>Health &amp; Household</MenuItem>
             <MenuItem onClick={handleClose}>Home &amp; Kitchen</MenuItem>
-            <MenuItem onClick={handleClose}>Industrial &amp; Scientific</MenuItem>
+            <MenuItem onClick={handleClose}>
+              Industrial &amp; Scientific
+            </MenuItem>
             <MenuItem onClick={handleClose}>Luggage</MenuItem>
             <MenuItem onClick={handleClose}>Movies &amp; TV</MenuItem>
             <MenuItem onClick={handleClose}>Music, CDs &amp; Vinyl</MenuItem>
             <MenuItem onClick={handleClose}>Pet Supplies</MenuItem>
             <MenuItem onClick={handleClose}>Software</MenuItem>
             <MenuItem onClick={handleClose}>Sports &amp; Outdoors</MenuItem>
-            <MenuItem onClick={handleClose}>Tools &amp; Home Improvement</MenuItem>
+            <MenuItem onClick={handleClose}>
+              Tools &amp; Home Improvement
+            </MenuItem>
             <MenuItem onClick={handleClose}>Toys &amp; Games</MenuItem>
             <MenuItem onClick={handleClose}>Video Games</MenuItem>
           </Menu>

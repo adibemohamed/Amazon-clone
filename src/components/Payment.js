@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "./Payment.css";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
 import { Link, useHistory } from "react-router-dom";
 import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
-import { getBasketTotal } from "./reducer";
-import axios from "./axios";
-import { db } from "./firebase";
+import { getBasketTotal } from "../reducers/reducer";
+import axios from "../axios";
+import { db } from "../firebase";
 
 function Payment() {
   const [{ basket, user }, dispatch] = useStateValue();
@@ -34,7 +34,6 @@ function Payment() {
 
     getClientSecret();
   }, [basket]);
- 
 
   const handleSubmit = async (event) => {
     // do all fancy stripe suff
@@ -84,9 +83,9 @@ function Payment() {
     <div className="payment">
       <div className="payment__container">
         <div className="payment__section">
-
-        
-        <h1>Checkout {<Link to="./checkout">{basket?.length} </Link>} items</h1>
+          <h1>
+            Checkout {<Link to="./checkout">{basket?.length} </Link>} items
+          </h1>
         </div>
         {/* <div fromclassName="payment__section">
                     <div className="payment__title">
