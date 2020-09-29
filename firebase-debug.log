@@ -1,0 +1,16 @@
+[debug] [2020-09-29T12:40:39.433Z] ----------------------------------------------------------------------
+[debug] [2020-09-29T12:40:39.442Z] Command:       /usr/local/bin/firebase /home/adibe/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2020-09-29T12:40:39.443Z] CLI Version:   8.7.0
+[debug] [2020-09-29T12:40:39.443Z] Platform:      linux
+[debug] [2020-09-29T12:40:39.444Z] Node Version:  v12.18.1
+[debug] [2020-09-29T12:40:39.445Z] Time:          Tue Sep 29 2020 12:40:39 GMT+0000 (Greenwich Mean Time)
+[debug] [2020-09-29T12:40:39.445Z] ----------------------------------------------------------------------
+[debug] [2020-09-29T12:40:39.446Z] 
+[debug] [2020-09-29T12:40:39.472Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-29T12:40:39.474Z] > authorizing via signed-in user
+[debug] [2020-09-29T12:40:39.475Z] [iam] checking project clone-f20b2 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-09-29T12:40:39.485Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-f20b2:testIamPermissions  
+ {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-09-29T12:40:40.449Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 29 Sep 2020 12:40:40 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=662","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-09-29T12:40:40.456Z] >>> HTTP REQUEST POST https://iam.googleapis.com/v1/projects/clone-f20b2/serviceAccounts/clone-f20b2@appspot.gserviceaccount.com:testIamPermissions  
+ {"permissions":["iam.serviceAccounts.actAs"]}
